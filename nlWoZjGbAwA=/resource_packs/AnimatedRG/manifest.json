@@ -1,0 +1,45 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "By @CrisXolt, a UI pack to make an animated RGB (Or §cC§eh§ar§bo§9m§da§r) XP bar, level number, hotbar, and even Inventory screens!",
+    "name": "§fAnimated §cR§aG§9B §fInv. GUI + HUD §fv3.1.0 [V1.20.30]",
+    "uuid": "ac9fabc5-2b9d-4105-a8d4-12844c46393d",
+    "version": [ 3, 1, 0 ],
+    "min_engine_version": [ 1, 21, 0 ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "fd738cd0-1433-4564-a299-90a03eceaec3",
+      "version": [ 3, 1, 0 ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "label",
+      "text": "Make sure to restart Minecraft when you change the GUI type."
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "desktop_gui",
+      "name": "Legacy Desktop GUI",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "pvp_gui",
+      "name": "Legacy PvP + Normal GUI",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "normal_gui",
+      "name": "Normal GUI",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "normal_gui_bottom",
+      "name": "Normal GUI with Bottom Chat",
+      "memory_tier": 1
+    }
+  ]
+}

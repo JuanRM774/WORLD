@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "By @CrisXolt. Not only does it show the potion recipes in hierarchy, it also shows some information for each potion. ;D",
+    "name": "Brewing Guide UI v3.1.0",
+    "uuid": "79d1481c-3adc-4f4b-8ee2-de106fbcd224",
+    "version": [ 3, 1, 0 ],
+    "min_engine_version": [ 1, 21, 0 ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "b4852d49-9760-416e-b467-0ea809dcc908",
+      "version": [ 3, 1, 0 ]
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "rgb",
+      "name": "Animated RGB GUI",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "dim",
+      "name": "Dim Night Mode GUI",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "light",
+      "name": "Light GUI (Wiki style)",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "original",
+      "name": "Default Textures GUI",
+      "memory_tier": 1
+    }
+  ]
+}

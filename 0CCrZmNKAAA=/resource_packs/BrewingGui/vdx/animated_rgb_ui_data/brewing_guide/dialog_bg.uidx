@@ -1,0 +1,49 @@
+{
+  "namespace": "CrisXolt_anm_brewing_bg",
+
+  /* 176x166 (Main) */
+  
+  "background_border_160x166_color_base_l@CrisXolt_rgb_config.brewing_rgb_config": {
+    "type": "image",
+    "texture": "vdx/animated_rgb_ui_textures/brewing_guide/background_border_160x166_color_base_l",
+    "size": [ 9, 166 ]
+  },
+  
+  "background_border_160x166_color_base_m@CrisXolt_rgb_config.brewing_rgb_config": {
+    "type": "image",
+    "texture": "vdx/animated_rgb_ui_textures/brewing_guide/background_border_160x166_color_base_m",
+    "size": [ 9, 166 ]
+  },
+  
+  "background_border_160x166_color_base_r@CrisXolt_rgb_config.brewing_rgb_config": {
+    "type": "image",
+    "texture": "vdx/animated_rgb_ui_textures/brewing_guide/background_border_160x166_color_base_r",
+    "size": [ 7, 166 ]
+  },
+
+  "rgb_bg_border_160x166_color_base": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ 160, 166 ],
+    "controls": [
+      { "01@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_l": { "color": "@CrisXolt_anm_brewing_colors.panel_color_35" } },
+      { "02@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_33" } },
+      { "03@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_31" } },
+      { "04@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_29" } },
+      { "05@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_27" } },
+      { "06@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_25" } },
+      { "07@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_23" } },
+      { "08@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_21" } },
+      { "09@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_19" } },
+      { "10@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_17" } },
+      { "11@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_15" } },
+      { "12@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_13" } },
+      { "13@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_11" } },
+      { "14@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_09" } },
+      { "15@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_07" } },
+      { "16@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_05" } },
+      { "17@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_m": { "color": "@CrisXolt_anm_brewing_colors.panel_color_03" } },
+      { "18@CrisXolt_anm_brewing_bg.background_border_160x166_color_base_r": { "color": "@CrisXolt_anm_brewing_colors.panel_color_01" } } 
+    ]
+  }
+}

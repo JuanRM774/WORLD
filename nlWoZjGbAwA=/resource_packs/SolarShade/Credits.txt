@@ -1,0 +1,19 @@
+  CREDITS:
+
+     RenderChunk: from BSBE Lite (Bambosan)
+     SunMoon: from Newb x LMI (Enoughrise11)
+     Clouds: from Vert Legacy (KinKaren)
+     
+
+     AESTHETIC MODE:
+     
+     RenderChunk: from Newb x LMI (Enoughrise11)
+     Sky, EndSky: from Newb x Future (1sekon)
+
+___________________________________________________
+
+  TEXTURES:
+  
+     3D Blocks: by Lvzbx
+     Sun & Moon: by Ale Graphics
+     Enchant Glint: by Enoughrise11

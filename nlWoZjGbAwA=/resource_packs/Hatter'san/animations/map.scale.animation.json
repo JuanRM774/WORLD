@@ -1,0 +1,385 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.map.locate": {
+			"loop": true,
+			"bones": {
+				"map1_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map1_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map1":{
+					"position":[
+						"(-query.position(0)*16)-131072",
+						"0",
+						"(query.position(2)*16)+131072"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map2_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map2_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map2":{
+					"position":[
+						"(-query.position(0)*16)-131072",
+						"0",
+						"(query.position(2)*16)+65536"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map3_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map3_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map3":{
+					"position":[
+						"(-query.position(0)*16)-131072",
+						"0",
+						"(query.position(2)*16)"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map4_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map4_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map4":{
+					"position":[
+						"(-query.position(0)*16)-131072",
+						"0",
+						"(query.position(2)*16)-65536"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map5_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map5_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map5":{
+					"position":[
+						"(-query.position(0)*16)-131072",
+						"0",
+						"(query.position(2)*16)-131072"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map6_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map6_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map6":{
+					"position":[
+						"(-query.position(0)*16)-65536",
+						"0",
+						"(query.position(2)*16)+131072"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map7_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map7_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map7":{
+					"position":[
+						"(-query.position(0)*16)-65536",
+						"0",
+						"(query.position(2)*16)+65536"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map8_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map8_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map8":{
+					"position":[
+						"(-query.position(0)*16)-65536",
+						"0",
+						"(query.position(2)*16)"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map9_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map9_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map9":{
+					"position":[
+						"(-query.position(0)*16)-65536",
+						"0",
+						"(query.position(2)*16)-65536"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map10_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map10_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map10":{
+					"position":[
+						"(-query.position(0)*16)-65536",
+						"0",
+						"(query.position(2)*16)-131072"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map11_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map11_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map11":{
+					"position":[
+						"(-query.position(0)*16)",
+						"0",
+						"(query.position(2)*16)+131072"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map12_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map12_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map12":{
+					"position":[
+						"(-query.position(0)*16)",
+						"0",
+						"(query.position(2)*16)+65536"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map13_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map13_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map13":{
+					"position":[
+						"(-query.position(0)*16)",
+						"0",
+						"(query.position(2)*16)"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map14_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map14_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map14":{
+					"position":[
+						"(-query.position(0)*16)",
+						"0",
+						"(query.position(2)*16)-65536"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map15_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map15_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map15":{
+					"position":[
+						"(-query.position(0)*16)",
+						"0",
+						"(query.position(2)*16)-131072"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map16_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map16_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map16":{
+					"position":[
+						"(-query.position(0)*16)+65536",
+						"0",
+						"(query.position(2)*16)+131072"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map17_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map17_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map17":{
+					"position":[
+						"(-query.position(0)*16)+65536",
+						"0",
+						"(query.position(2)*16)+65536"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map18_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map18_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map18":{
+					"position":[
+						"(-query.position(0)*16)+65536",
+						"0",
+						"(query.position(2)*16)"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map19_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map19_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map19":{
+					"position":[
+						"(-query.position(0)*16)+65536",
+						"0",
+						"(query.position(2)*16)-65536"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map20_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map20_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map20":{
+					"position":[
+						"(-query.position(0)*16)+65536",
+						"0",
+						"(query.position(2)*16)-131072"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map21_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map21_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map21":{
+					"position":[
+						"(-query.position(0)*16)+131072",
+						"0",
+						"(query.position(2)*16)+131072"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map22_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map22_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map22":{
+					"position":[
+						"(-query.position(0)*16)+131072",
+						"0",
+						"(query.position(2)*16)+65536"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map23_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map23_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map23":{
+					"position":[
+						"(-query.position(0)*16)+131072",
+						"0",
+						"(query.position(2)*16)"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map24_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map24_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map24":{
+					"position":[
+						"(-query.position(0)*16)+131072",
+						"0",
+						"(query.position(2)*16)-65536"
+						],
+						"rotation":	[0, 0, 0]
+				},
+				"map25_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"map25_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"map25":{
+					"position":[
+						"(-query.position(0)*16)+131072",
+						"0",
+						"(query.position(2)*16)-131072"
+						],
+						"rotation":	[0, 0, 0]
+				}
+			}
+		}
+	}
+}

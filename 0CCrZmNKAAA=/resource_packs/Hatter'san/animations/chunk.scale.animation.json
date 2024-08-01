@@ -1,0 +1,24 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.chunk.locate": {
+			"loop": true,
+			"bones": {
+				"chunk_pivot": {
+					"rotation":	[0,"variable.is_first_person ? -query.target_x_rotation:-query.body_y_rotation",0],
+					"scale":"16/15"
+				},
+				"chunk_pitch": {
+					"rotation":	[0, 0, 0]//
+				},
+				"chunk":{
+					"position":[
+						"math.lerp(0, 1, (8  - math.mod(query.position(0), 16) + (query.position(0) <= 0 ? -16))*16)",
+						"math.lerp(0, 1, (1.6 - math.mod(query.position(1), 16) - (query.position(1) <= 0 ? 16)) * 16 + (query.vertical_speed * 0.5) + 0.25)",
+						"math.lerp(0, 1, (math.mod(query.position(2), 16) + (query.position(2) <= 0 ? 16) - 8) * 16)"
+						]
+				}
+			}
+		}
+	}
+}

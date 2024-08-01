@@ -1,0 +1,19 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "§l§aFind §bOres§f Using §l§aX§9-§eR§ba§a§cy§f §d(Required Smooth Lightning OFF)§f",
+      "name" : "§l§aX§9-§eR§ba§a§cy §bby FelixTW§f",
+      "uuid" : "8d0e69a0-4b3f-11ec-81d3-0242ac130003",
+      "min_engine_version": [ 1,9,0 ],
+      "version" : [ 1, 10, 0 ]
+   },
+   "min_engine_version": [ 1,9,0 ],
+   "modules" : [
+      {
+         "description" : "§l§bby FelixTW",
+         "type" : "resources",
+         "uuid" : "9286249a-4b3f-11ec-81d3-0242ac130003",
+         "version" : [ 1, 10, 0 ]
+      }
+   ]
+}

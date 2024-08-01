@@ -1,0 +1,18 @@
+v3.1.0 [July/21/2024]
+[Changes]
+[*] Updated for v1.21.0.
+[*] Added new recipes from 1.21 potions.
+[*] Updated compatibility for Main VDX UI v3.1.0
+
+v1.3.0 [22 May 2023] (1.19.80 and 1.20.0 beta/preview)
+[Additions]
+[+] Added compatibility for Animated RGB Inv. GUI, especially for pocket UI.
+[+] Added dynamic item animation for Mundane Potion recipe.
+[Changes]
+[*] Updated for v1.19.80 and v1.20.0 preview versions.
+[*] The guide panel is now hidden by default, you must click the toggle on top right.
+[*] The width size of the brewing guide for the classic UI now has a value of 160.
+[*] The top tabs for each category is now centered and with the black button design.
+[*] Hover text now follows the cursor, only if it is not on the touch device.
+[*] Fixed a bug where items icons were wrong in recent versions, now it is texture/image based rendered.
+[*] The values when it is applied are now correct as you will see it in the inventory.

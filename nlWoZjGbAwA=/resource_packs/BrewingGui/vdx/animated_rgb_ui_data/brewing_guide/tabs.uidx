@@ -1,0 +1,117 @@
+/*File made by @CrisXolt.
+//(c) Don't use any UI data design without permission!*/
+{
+  "namespace": "CrisXolt_anm_brewing_tabs",
+
+  /* Normal Tabs */
+  
+  "tab_0_back@CrisXolt_anm_brewing_tabs.tab_base": {
+    "$main_texture": "textures/animated_ui/brewing_guide_ui/tab",
+    "$overlay_texture": "textures/animated_ui/brewing_guide_ui/tab_overlay_back",
+    "$tab_overlay_color": "@CrisXolt_anm_brewing_colors.color_32"
+  },
+  
+  "tab_0_back_hover@CrisXolt_anm_brewing_tabs.tab_base": {
+    "$main_texture": "textures/animated_ui/brewing_guide_ui/tab_hover",
+    "$overlay_texture": "textures/animated_ui/brewing_guide_ui/tab_overlay_back",
+    "$tab_overlay_color": "@CrisXolt_anm_brewing_colors.color_32"
+  },
+
+  "tab_0_front@CrisXolt_anm_brewing_tabs.tab_base": {
+    "$main_texture": "textures/animated_ui/brewing_guide_ui/tab",
+    "$overlay_texture": "textures/animated_ui/brewing_guide_ui/tab_overlay_front",
+    "$tab_overlay_color": "@CrisXolt_anm_brewing_colors.color_32"
+  },
+
+  "tab_0_front_hover@CrisXolt_anm_brewing_tabs.tab_base": {
+    "$main_texture": "textures/animated_ui/brewing_guide_ui/tab_hover",
+    "$overlay_texture": "textures/animated_ui/brewing_guide_ui/tab_overlay_front",
+    "$tab_overlay_color": "@CrisXolt_anm_brewing_colors.color_32"
+  },
+
+  /* Splash Tabs */
+
+  "tab_1_back@CrisXolt_anm_brewing_tabs.tab_base": {
+    "$main_texture": "textures/animated_ui/brewing_guide_ui/tab",
+    "$overlay_texture": "textures/animated_ui/brewing_guide_ui/tab_overlay_back",
+    "$tab_overlay_color": "@CrisXolt_anm_brewing_colors.color_27"
+  },
+
+  "tab_1_back_hover@CrisXolt_anm_brewing_tabs.tab_base": {
+    "$main_texture": "textures/animated_ui/brewing_guide_ui/tab_hover",
+    "$overlay_texture": "textures/animated_ui/brewing_guide_ui/tab_overlay_back",
+    "$tab_overlay_color": "@CrisXolt_anm_brewing_colors.color_27"
+  },
+
+  "tab_1_front@CrisXolt_anm_brewing_tabs.tab_base": {
+    "$main_texture": "textures/animated_ui/brewing_guide_ui/tab",
+    "$overlay_texture": "textures/animated_ui/brewing_guide_ui/tab_overlay_front",
+    "$tab_overlay_color": "@CrisXolt_anm_brewing_colors.color_27"
+  },
+
+  "tab_1_front_hover@CrisXolt_anm_brewing_tabs.tab_base": {
+    "$main_texture": "textures/animated_ui/brewing_guide_ui/tab_hover",
+    "$overlay_texture": "textures/animated_ui/brewing_guide_ui/tab_overlay_front",
+    "$tab_overlay_color": "@CrisXolt_anm_brewing_colors.color_27"
+  },
+
+  /* Lingering Tabs */
+
+  "tab_2_back@CrisXolt_anm_brewing_tabs.tab_base": {
+    "$main_texture": "textures/animated_ui/brewing_guide_ui/tab",
+    "$overlay_texture": "textures/animated_ui/brewing_guide_ui/tab_overlay_back",
+    "$tab_overlay_color": "@CrisXolt_anm_brewing_colors.color_19"
+  },
+
+  "tab_2_back_hover@CrisXolt_anm_brewing_tabs.tab_base": {
+    "$main_texture": "textures/animated_ui/brewing_guide_ui/tab_hover",
+    "$overlay_texture": "textures/animated_ui/brewing_guide_ui/tab_overlay_back",
+    "$tab_overlay_color": "@CrisXolt_anm_brewing_colors.color_19"
+  },
+
+  "tab_2_front@CrisXolt_anm_brewing_tabs.tab_base": {
+    "$main_texture": "textures/animated_ui/brewing_guide_ui/tab",
+    "$overlay_texture": "textures/animated_ui/brewing_guide_ui/tab_overlay_front",
+    "$tab_overlay_color": "@CrisXolt_anm_brewing_colors.color_19"
+  },
+
+  "tab_2_front_hover@CrisXolt_anm_brewing_tabs.tab_base": {
+    "$main_texture": "textures/animated_ui/brewing_guide_ui/tab_hover",
+    "$overlay_texture": "textures/animated_ui/brewing_guide_ui/tab_overlay_front",
+    "$tab_overlay_color": "@CrisXolt_anm_brewing_colors.color_19"
+  },
+
+  /* Base */
+
+  "tab_base": {
+    "type": "stack_panel",
+    "size": [ 26, 25 ],
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "controls": [
+      {
+        "top_panel": {
+          "type": "panel",
+          "size": [ 26, 4 ]
+        }
+      },
+      {
+        "texture": {
+          "type": "image",
+          "size": [ 26, 22 ],
+          "texture": "$main_texture",
+          "controls": [
+            {
+              "overlay": {
+                "type": "image",
+                "size": [ 26, 22 ],
+                "texture": "$overlay_texture",
+                "color": "$tab_overlay_color"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

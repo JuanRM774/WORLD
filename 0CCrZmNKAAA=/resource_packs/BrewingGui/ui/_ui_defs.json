@@ -1,0 +1,21 @@
+/*  (c) CrisXolt. Don't use any code design without permission!  */
+{
+  "ui_defs": [
+    "rgb_config.json",
+    "vdx/ui_data/brewing_guide/brewing_guide.uidx",
+    "vdx/ui_data/brewing_guide/brewing_item_animation.uidx",
+    "vdx/ui_data/brewing_guide/brewing_items.uidx",
+    "vdx/ui_data/brewing_guide/brewing_lingering_items.uidx",
+    "vdx/ui_data/brewing_guide/brewing_splash_items.uidx",
+    "vdx/ui_data/brewing_guide/brewing_text_animation.uidx",
+    "vdx/ui_data/brewing_guide/potion_item_common.uidx",
+    "vdx/ui_data/brewing_guide/stack_panel_content.uidx",
+    "vdx/ui_data/brewing_guide/textures.uidx",
+    "vdx/ui_data/brewing_guide/ui_template_scroll.uidx",
+    "vdx/ui_data/brewing_guide/ui_template_toggles.uidx",
+    /* For RGB Subpack */
+    "vdx/animated_rgb_ui_data/brewing_guide/colors.uidx",
+    "vdx/animated_rgb_ui_data/brewing_guide/dialog_bg.uidx",
+    "vdx/animated_rgb_ui_data/brewing_guide/tabs.uidx"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§l§bSolar §dShaders§f§r",
+		"description": "§lAn enchanced vanilla shader for Minecraft!\n§r§cOnly works with Patched Minecraft\n§bMade By Suryan2010 | V7 Update",
+		"uuid": "d3399f6e-599d-4898-9912-e4cc20501952",
+		"version": [7, 0, 0],
+		"min_engine_version": [1, 20, 50]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "2fc2dd6f-86cb-4370-af70-21490a1ae471",
+			"version": [7, 0, 0]
+		}
+	],
+	"subpacks": [
+	   {
+            "folder_name": "aesthetic_mode",
+			"name": "§l§dAESTHETIC MODE\n§f§rUse 'Aesthetic Mode' For Best Experience",
+			"memory_tier": 0
+        },
+		{
+			"folder_name": "no_metalic_blocks",
+			"name": "§6NO METALIC BLOCKS\n§f§rTurn Off Metalic Blocks For More FPS",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "no_realistic_water",
+			"name": "§cNO REALISTIC WATER\n§f§rGet More FPS On Your Potato Phone",
+			"memory_tier": 2
+		},
+		{
+			"folder_name": "volumetric_clouds",
+			"name": "§bVOLUMETRIC CLOUDS\n§f§rGet More Realistic",
+			"memory_tier": 3
+		},
+		{
+			"folder_name": "default",
+			"name": "DEFAULT",
+			"memory_tier": 4
+		}
+   ],
+   "settings": [
+     {
+       "type": "label",
+       "text":  "§e§lFEATURE V7 UPDATES:\n§f§r• 1.20.80/1.21+ SUPPORT!\n• Improved Aesthetic Mode\n• Metalic Blocks\n• Changed Sky Colors\n• Added New Glowing Blocks\n• Complementary End Sky\n• Trial Chambers Panorama\n• New Pack Icon"
+     },
+     {
+       "type": "label",
+       "text":  "§bSolar §dShaders §rV7\nMade By Suryan2010 :)"
+     }
+  ],
+   "capabilities": [
+        "chemistry"
+    ]
+}

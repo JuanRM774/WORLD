@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "§oby §l§eRejixide§r",
+        "name": "§l§e3D §dArmor §cDetails§r U#2 §a[16x]§r",
+        "uuid": "0e60e7a2-210c-4018-b7d4-2477bf5c45b5",
+        "version": [3, 0, 2],
+        "min_engine_version": [1, 13, 0]
+    },
+    "modules": [
+        {
+            "description": "§oby §l§eRejixide§r",
+            "type": "resources",
+            "uuid": "62aff4b8-da8b-4639-a326-529b42d4d00d",
+            "version": [3, 0, 2]
+        }
+    ]
+}

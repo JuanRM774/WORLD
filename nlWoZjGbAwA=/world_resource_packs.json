@@ -1,0 +1,31 @@
+
+[
+	
+	{
+		"pack_id" : "129db57d-3dcb-22e9-a210-d563bd782e83",
+		"subpack" : "combo",
+		"version" : [ 0, 0, 0 ]
+	},
+	
+	{
+		"pack_id" : "0e60e7a2-210c-4018-b7d4-2477bf5c45b5",
+		"version" : [ 3, 0, 2 ]
+	},
+	
+	{
+		"pack_id" : "79d1481c-3adc-4f4b-8ee2-de106fbcd224",
+		"subpack" : "original",
+		"version" : [ 3, 1, 0 ]
+	},
+	
+	{
+		"pack_id" : "273480d7-6e63-4250-bbe1-c77ea3a6f15e",
+		"subpack" : "name",
+		"version" : [ 1, 0, 1 ]
+	},
+	
+	{
+		"pack_id" : "e1e37590-bc1e-4087-93be-83e756e86c2d",
+		"version" : [ 1, 0, 1 ]
+	}
+]

@@ -1,0 +1,65 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Hover text settings 
+        By CTG ",
+        "name": "Hover text fix",
+        "uuid": "273480d7-6e63-4250-bbe1-c77ea3a6f15e",
+        "version": [ 1, 0, 1 ],
+        "min_engine_version": [ 1, 2, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Ajustes de texto",
+            "type": "resources",
+            "uuid": "186fe833-ba6e-40b0-b343-f82c3841e9e6",
+            "version": [ 1, 0, 1 ]
+        }
+    ],
+      "subpacks": [
+    {
+      "folder_name": "name + 6 descripcion",
+      "name": "Name + 6 descripcion",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "name + 5 descripcion",
+      "name": "Name + 5 descripcion",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "name + 4 descripcion",
+      "name": "Name + 4 descripcion",
+      "memory_tier": 1
+    },
+
+    {
+      "folder_name": "name + 3 descripcion",
+      "name": "Name + 3 descripcion",
+      "memory_tier": 1
+    },
+
+    {
+      "folder_name": "name + 2 descripcion",
+      "name": "Name + 2 descripcion",
+      "memory_tier": 1
+    },
+
+    {
+      "folder_name": "name + 1 descripcion",
+      "name": "Name + 1 descripcion",
+      "memory_tier": 1
+    },
+    
+    {
+      "folder_name": "name",
+      "name": "Name",
+      "memory_tier": 1
+    }
+
+
+
+
+  ]
+
+}
